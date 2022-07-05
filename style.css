@@ -8,7 +8,7 @@ h1{
 .tanvir{
     color: orange;
 }
-section{
+.flex-contain{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,31 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.halfend{
+    width: 40%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0% 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+.third{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;background-position: left;
+
+}
+.left-border1{
+    border-left: 7px solid #FF6347;
+     
+
+}
+.left-border2{
+    border-left: 7px solid blue;
+     
+}
+footer p{
+    text-align: center;
+
 }
